@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,100" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial"/>
+    <link rel="stylesheet" href="css/media_900.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+    <header class="header row">
+        <div class="logo col-md-6">
+            <img class="img-responsive" src="images/logo.svg" width="100" alt="logo">
+        </div>
+
+        <div class="name col-md-6 text-right text-uppercase">
+            <h1>Ishwarya Valluri</h1>
+            <h4>Front-end Developer</h4>
+        </div>
+    </header>
+
+
+    <div class="banner row">
+        <div class="col-md-12">
+            <figure>
+                <picture>
+                    <source media="(min-width: 465px)" srcset="images/banner.jpg">
+                    <img class="banner img-responsive" src="images/banner_small.png" alt="Projects">
+                </picture>
+            </figure>
+        </div>
+    </div>
+
+
+    <section class="work row">
+        <div class="col-md-12">
+            <h3>Featured Work</h3>
+        </div>
+    </section>
+
+
+    <section id="social" class="row member">
+        <article class="project col-md-4">
+            <img class="p1 img-responsive" src="images/project1.png"
+                 srcset="img/project1-900_x2.png 900w, img/project1-600_x1.png 600w" alt="Project1" data-toggle="modal"
+                 data-target="#project1">
+            <h2 class="text-center">Localization</h2>
+            <p class="text-center"><a href="https://github.com/home?status=https://github.com/udacity/responsive-images"
+                                      target="_blank" class="zocial-github">Link to project1</a></p>
+        </article>
+
+        <article class="project col-md-4">
+            <img class="p1 img-responsive" src="images/project2.png" alt="Project2"
+                 srcset="img/project2-900_x2.png 900w, img/project2-600_x1.png 600w" data-toggle="modal"
+                 data-target="#project2">
+            <h2 class="text-center">CRM</h2>
+            <p class="text-center"><a href="https://github.com/home?status=https://github.com/udacity/responsive-images"
+                                      target="_blank" class="zocial-github">Link to project2</a></p>
+        </article>
+
+        <article class="project col-md-4">
+            <img class="p1 img-responsive" src="images/project3.png"
+                 srcset="img/project3-900_x2.png 900w, img/project3-600_x1.png 600w" alt="Project3" data-toggle="modal"
+                 data-target="#project3">
+            <h2 class="text-center">E-Learning</h2>
+            <p class="text-center"><a href="https://github.com/home?status=https://github.com/udacity/responsive-images"
+                                      target="_blank" class="zocial-github">Link to project3</a></p>
+        </article>
+    </section>
+
+
+    <footer class="footer row">
+        <p class="col-md-6"><img class="phone img-responsive" src="images/mobile.gif" width="40" alt="Contact">123456788
+        </p>
+        <p class="col-md-6 text-right"><a href="mailto:someone@example.com" target="_blank">someone@example.com</a></p>
+    </footer>
+</div>
+
+<!-- Modals -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="label1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="label1">Localization</h4>
+            </div>
+            <div class="modal-body">
+                <p>Office 2010 was released into market in 37 Languages along with English. Testing of Localized Office
+                    applications with English as Reference and reporting the defects in Product Studio.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="label2" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="label2">Customer Relationship Management(CRM)</h4>
+            </div>
+            <div class="modal-body">
+                <p>CRM is a multi-lingual Customer Relationship Management software package developed by Microsoft. It
+                    is a server-client application, which, like Microsoft SharePoint, is primarily an IIS-based web
+                    application which also supports extensive web services interfaces. Clients access Dynamics CRM
+                    either by using Microsoft Internet Explorer 6 or later web browser or by a thick client plug-in to
+                    Microsoft Outlook. While other browsers can be used to access Dynamics, results can be mixed and are
+                    not supported by Microsoft. Current version of CRM which is being tested is CRM V5.0.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="label3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="label3">E-Learning</h4>
+            </div>
+            <div class="modal-body">
+                <p>A Web-based collaboration, communications, and content delivery framework that serves the education
+                    industry. H5elps in creating integrated e-learning solutions for primary and secondary schools and
+                    higher education institutions.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
